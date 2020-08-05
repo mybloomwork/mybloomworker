@@ -125,6 +125,7 @@ STATIC_ROOT = "/var/www/blumbuy.pythonanywhere.com/static/"
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
+    '/var/www/static/',
 ]
 
 MEDIA_URL = '/images/'
